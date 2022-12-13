@@ -1,0 +1,166 @@
+Using license file /Users/muratilter/gurobi.lic
+Set parameter LogFile to value best-lin-new-future-3.log
+Academic license - for non-commercial use only
+Read LP format model from file new_best_lin_future_3.lp
+Reading time = 0.01 seconds
+: 1460 rows, 1056 columns, 9560 nonzeros
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 1460 rows, 1056 columns and 9560 nonzeros
+Model fingerprint: 0xc3f6e8e3
+Variable types: 0 continuous, 1056 integer (1056 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 128 rows and 412 columns
+Presolve time: 0.11s
+Presolved: 1332 rows, 644 columns, 9020 nonzeros
+Variable types: 0 continuous, 644 integer (516 binary)
+
+Root relaxation: objective 3.556736e+00, 927 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    3.55674    0  149          -    3.55674      -     -    0s
+     0     0    3.80249    0  146          -    3.80249      -     -    0s
+     0     0   10.32803    0  116          -   10.32803      -     -    0s
+     0     0   10.32803    0  121          -   10.32803      -     -    0s
+H    0     0                      18.0000000   10.32803  42.6%     -    0s
+     0     0   10.41758    0  123   18.00000   10.41758  42.1%     -    0s
+     0     0   10.41758    0  118   18.00000   10.41758  42.1%     -    0s
+     0     0   10.42273    0  118   18.00000   10.42273  42.1%     -    0s
+     0     0   10.47023    0  120   18.00000   10.47023  41.8%     -    0s
+     0     0   11.58077    0  141   18.00000   11.58077  35.7%     -    0s
+     0     0   11.58541    0  127   18.00000   11.58541  35.6%     -    0s
+     0     0   13.99699    0  106   18.00000   13.99699  22.2%     -    0s
+     0     0   14.01776    0  136   18.00000   14.01776  22.1%     -    0s
+     0     0   14.02019    0  155   18.00000   14.02019  22.1%     -    0s
+     0     0   14.02035    0  156   18.00000   14.02035  22.1%     -    0s
+     0     0     cutoff    0        18.00000   18.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 31
+  Implied bound: 50
+  Clique: 2
+  MIR: 64
+  StrongCG: 3
+  Zero half: 19
+  RLT: 10
+  Relax-and-lift: 1
+
+Explored 1 nodes (2414 simplex iterations) in 0.57 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0000%
+<gurobi.Var p0_0_8 (value 1.0)>
+<gurobi.Var p0_0_9 (value 1.0)>
+<gurobi.Var p0_0_10 (value 1.0)>
+<gurobi.Var p0_0_11 (value 1.0)>
+<gurobi.Var p0_1_13 (value 1.0)>
+<gurobi.Var p0_2_1 (value 1.0)>
+<gurobi.Var p0_2_6 (value 1.0)>
+<gurobi.Var p0_2_11 (value 1.0)>
+<gurobi.Var p0_2_12 (value 1.0)>
+<gurobi.Var x0_32 (value 1.0)>
+<gurobi.Var x0_34 (value 1.0)>
+<gurobi.Var x0_36 (value 1.0)>
+<gurobi.Var x0_43 (value 1.0)>
+<gurobi.Var x0_47 (value 1.0)>
+<gurobi.Var A0_8 (value 1.0)>
+<gurobi.Var A0_9 (value 1.0)>
+<gurobi.Var A0_10 (value 1.0)>
+<gurobi.Var A0_11 (value 1.0)>
+<gurobi.Var y0_32 (value 1.0)>
+<gurobi.Var y0_35 (value 1.0)>
+<gurobi.Var y0_36 (value 1.0)>
+<gurobi.Var y0_42 (value 1.0)>
+<gurobi.Var y0_43 (value 1.0)>
+<gurobi.Var y0_46 (value 1.0)>
+<gurobi.Var y0_47 (value 1.0)>
+<gurobi.Var d0_100 (value 1.0)>
+<gurobi.Var d0_101 (value 1.0)>
+<gurobi.Var d0_103 (value 1.0)>
+<gurobi.Var d0_104 (value 1.0)>
+<gurobi.Var d0_106 (value 1.0)>
+<gurobi.Var d0_107 (value 1.0)>
+<gurobi.Var d0_109 (value 1.0)>
+<gurobi.Var d0_111 (value 1.0)>
+<gurobi.Var d0_115 (value 1.0)>
+<gurobi.Var d0_116 (value 1.0)>
+<gurobi.Var d0_118 (value 1.0)>
+<gurobi.Var t0_39 (value 1.0)>
+<gurobi.Var d0_121 (value 1.0)>
+<gurobi.Var d0_123 (value 1.0)>
+<gurobi.Var d0_127 (value 1.0)>
+<gurobi.Var d0_128 (value 1.0)>
+<gurobi.Var d0_130 (value 1.0)>
+<gurobi.Var d0_133 (value 1.0)>
+<gurobi.Var d0_134 (value 1.0)>
+<gurobi.Var d0_136 (value 1.0)>
+<gurobi.Var d0_138 (value 1.0)>
+<gurobi.Var d0_139 (value 1.0)>
+<gurobi.Var d0_141 (value 1.0)>
+<gurobi.Var d0_142 (value 1.0)>
+<gurobi.Var d0_144 (value 1.0)>
+<gurobi.Var d0_146 (value 1.0)>
+<gurobi.Var d0_147 (value 1.0)>
+<gurobi.Var d0_148 (value 1.0)>
+<gurobi.Var x1_55 (value 1.0)>
+<gurobi.Var A1_13 (value 1.0)>
+<gurobi.Var y1_54 (value 1.0)>
+<gurobi.Var y1_55 (value 1.0)>
+<gurobi.Var t1_49 (value 1.0)>
+<gurobi.Var d1_153 (value 1.0)>
+<gurobi.Var d1_154 (value 1.0)>
+<gurobi.Var d1_156 (value 1.0)>
+<gurobi.Var d1_157 (value 1.0)>
+<gurobi.Var t1_52 (value 1.0)>
+<gurobi.Var d1_162 (value 1.0)>
+<gurobi.Var d1_163 (value 1.0)>
+<gurobi.Var d1_165 (value 1.0)>
+<gurobi.Var d1_166 (value 1.0)>
+<gurobi.Var t1_56 (value 1.0)>
+<gurobi.Var d1_174 (value 1.0)>
+<gurobi.Var d1_175 (value 1.0)>
+<gurobi.Var t1_57 (value 1.0)>
+<gurobi.Var d1_177 (value 1.0)>
+<gurobi.Var d1_178 (value 1.0)>
+<gurobi.Var t1_58 (value 1.0)>
+<gurobi.Var d1_180 (value 1.0)>
+<gurobi.Var d1_182 (value 1.0)>
+<gurobi.Var d1_183 (value 1.0)>
+<gurobi.Var t1_59 (value 1.0)>
+<gurobi.Var d1_184 (value 1.0)>
+<gurobi.Var d1_186 (value 1.0)>
+<gurobi.Var d1_187 (value 1.0)>
+<gurobi.Var t1_62 (value 1.0)>
+<gurobi.Var d1_194 (value 1.0)>
+<gurobi.Var d1_195 (value 1.0)>
+<gurobi.Var t1_63 (value 1.0)>
+<gurobi.Var d1_197 (value 1.0)>
+<gurobi.Var d1_198 (value 1.0)>
+<gurobi.Var x2_4 (value 1.0)>
+<gurobi.Var x2_24 (value 1.0)>
+<gurobi.Var x2_25 (value 1.0)>
+<gurobi.Var x2_26 (value 1.0)>
+<gurobi.Var x2_27 (value 1.0)>
+<gurobi.Var x2_46 (value 1.0)>
+<gurobi.Var x2_47 (value 1.0)>
+<gurobi.Var x2_49 (value 1.0)>
+<gurobi.Var A2_1 (value 1.0)>
+<gurobi.Var A2_6 (value 1.0)>
+<gurobi.Var A2_11 (value 1.0)>
+<gurobi.Var A2_12 (value 1.0)>
+<gurobi.Var y2_4 (value 1.0)>
+<gurobi.Var y2_24 (value 1.0)>
+<gurobi.Var y2_26 (value 1.0)>
+<gurobi.Var y2_44 (value 1.0)>
+<gurobi.Var y2_47 (value 1.0)>
+<gurobi.Var y2_49 (value 1.0)>
+python3 model2-3.py  1.83s user 0.08s system 262% cpu 0.730 total

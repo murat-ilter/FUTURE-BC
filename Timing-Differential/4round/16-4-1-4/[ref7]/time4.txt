@@ -1,0 +1,288 @@
+Using license file /Users/muratilter/gurobi.lic
+Set parameter LogFile to value best-diff-new-future-4.log
+Academic license - for non-commercial use only
+Read LP format model from file new_best_diff_future_4.lp
+Reading time = 0.06 seconds
+: 15621 rows, 896 columns, 115520 nonzeros
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 15621 rows, 896 columns and 115520 nonzeros
+Model fingerprint: 0x4a9935f5
+Variable types: 0 continuous, 896 integer (896 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 290 rows and 224 columns
+Presolve time: 0.27s
+Presolved: 15331 rows, 672 columns, 114496 nonzeros
+Variable types: 0 continuous, 672 integer (672 binary)
+
+Root relaxation: objective 3.594550e+01, 7568 iterations, 0.42 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   35.94550    0  439          -   35.94550      -     -    1s
+     0     0   36.47550    0  312          -   36.47550      -     -    2s
+     0     0   36.57120    0  327          -   36.57120      -     -    2s
+     0     0   36.81231    0  365          -   36.81231      -     -    3s
+     0     0   36.81231    0  323          -   36.81231      -     -    3s
+     0     0   37.37407    0  298          -   37.37407      -     -    4s
+     0     0   38.01368    0  303          -   38.01368      -     -    4s
+     0     0   38.02237    0  316          -   38.02237      -     -    4s
+     0     0   38.02443    0  310          -   38.02443      -     -    4s
+     0     0   38.02452    0  310          -   38.02452      -     -    4s
+     0     0   38.95650    0  289          -   38.95650      -     -    5s
+     0     0   39.25574    0  252          -   39.25574      -     -    6s
+     0     0   39.28995    0  248          -   39.28995      -     -    6s
+     0     0   39.29134    0  279          -   39.29134      -     -    6s
+     0     0   39.60618    0  282          -   39.60618      -     -    6s
+     0     0   39.66605    0  283          -   39.66605      -     -    6s
+     0     0   39.67606    0  335          -   39.67606      -     -    6s
+     0     0   39.67702    0  287          -   39.67702      -     -    6s
+     0     0   39.67702    0  287          -   39.67702      -     -    7s
+     0     0   39.96118    0  259          -   39.96118      -     -    7s
+     0     0   39.98736    0  261          -   39.98736      -     -    7s
+     0     0   39.99388    0  279          -   39.99388      -     -    7s
+     0     0   39.99420    0  281          -   39.99420      -     -    7s
+     0     0   40.21630    0  255          -   40.21630      -     -    8s
+     0     0   40.25020    0  263          -   40.25020      -     -    8s
+     0     0   40.25318    0  311          -   40.25318      -     -    8s
+     0     0   40.25326    0  313          -   40.25326      -     -    8s
+     0     0   40.47571    0  308          -   40.47571      -     -    9s
+     0     0   40.48947    0  261          -   40.48947      -     -    9s
+     0     0   40.49298    0  269          -   40.49298      -     -    9s
+     0     0   40.49309    0  270          -   40.49309      -     -    9s
+     0     0   40.65118    0  252          -   40.65118      -     -    9s
+     0     0   40.68105    0  314          -   40.68105      -     -    9s
+     0     0   40.68417    0  321          -   40.68417      -     -    9s
+     0     0   40.68433    0  314          -   40.68433      -     -    9s
+     0     0   40.83798    0  272          -   40.83798      -     -   10s
+     0     0   40.88744    0  268          -   40.88744      -     -   10s
+     0     0   40.89313    0  269          -   40.89313      -     -   10s
+     0     0   40.89355    0  264          -   40.89355      -     -   10s
+     0     0   41.15468    0  324          -   41.15468      -     -   11s
+     0     0   41.20690    0  326          -   41.20690      -     -   11s
+     0     0   41.23447    0  327          -   41.23447      -     -   11s
+     0     0   41.24097    0  329          -   41.24097      -     -   11s
+     0     0   41.24100    0  329          -   41.24100      -     -   11s
+     0     0   41.63549    0  352          -   41.63549      -     -   12s
+     0     0   41.65999    0  343          -   41.65999      -     -   12s
+     0     0   41.66455    0  338          -   41.66455      -     -   12s
+     0     0   41.66455    0  337          -   41.66455      -     -   12s
+     0     0   43.39447    0  324          -   43.39447      -     -   12s
+     0     0   43.45807    0  300          -   43.45807      -     -   12s
+     0     0   43.45973    0  301          -   43.45973      -     -   12s
+     0     0   43.45985    0  302          -   43.45985      -     -   13s
+     0     0   44.28741    0  249          -   44.28741      -     -   13s
+     0     0   44.30497    0  270          -   44.30497      -     -   13s
+     0     0   44.31196    0  257          -   44.31196      -     -   13s
+     0     0   44.31303    0  258          -   44.31303      -     -   13s
+     0     0   44.31303    0  258          -   44.31303      -     -   13s
+     0     0   44.53360    0  261          -   44.53360      -     -   14s
+     0     0   44.55849    0  274          -   44.55849      -     -   14s
+     0     0   44.55882    0  254          -   44.55882      -     -   14s
+     0     0   46.18489    0  253          -   46.18489      -     -   14s
+     0     0   46.23771    0  251          -   46.23771      -     -   14s
+     0     0   46.24060    0  235          -   46.24060      -     -   14s
+     0     0   46.24060    0  235          -   46.24060      -     -   15s
+     0     0   47.36467    0  164          -   47.36467      -     -   15s
+     0     0   47.38009    0  221          -   47.38009      -     -   15s
+     0     0   47.38586    0  209          -   47.38586      -     -   15s
+     0     0   47.38596    0  205          -   47.38596      -     -   15s
+     0     0   47.73367    0  263          -   47.73367      -     -   16s
+     0     0   47.73515    0  292          -   47.73515      -     -   16s
+     0     0   47.73551    0  291          -   47.73551      -     -   16s
+     0     0   48.52823    0  226          -   48.52823      -     -   16s
+     0     0   48.53964    0  205          -   48.53964      -     -   16s
+     0     0   48.54066    0  318          -   48.54066      -     -   16s
+     0     0   48.55031    0  228          -   48.55031      -     -   17s
+     0     0   48.55052    0  277          -   48.55052      -     -   17s
+     0     0   48.56067    0  228          -   48.56067      -     -   17s
+     0     0   48.56194    0  217          -   48.56194      -     -   17s
+     0     0   48.56496    0  309          -   48.56496      -     -   17s
+     0     0   48.56496    0  309          -   48.56496      -     -   18s
+     0     2   48.56496    0  301          -   48.56496      -     -   20s
+   887   587   50.05393   17   87          -   48.57666      -  73.5   25s
+  1024   625   48.59866    9  444          -   48.57666      -  73.2   33s
+  1025   626   50.00000   35  169          -   50.00000      -  73.1   35s
+  1028   628   50.00000   10  238          -   50.00000      -  72.9   43s
+  1029   629   50.00000   36   37          -   50.00000      -  72.8   46s
+  1032   631   50.00000   18  180          -   50.00000      -  72.6   51s
+  1033   631   50.00000   38  173          -   50.00000      -  72.6   55s
+  1037   634   50.00000   11   48          -   50.00000      -  72.3   60s
+  1043   638   52.00000   27   63          -   50.00000      -  71.9   65s
+  1049   643   52.00000   32   59          -   50.00000      -   104   71s
+  1052   645   50.00000   26  205          -   50.00000      -   103   76s
+  1055   647   50.00000   46   49          -   50.00000      -   103   80s
+  1064   653   50.00000    7   59          -   50.00000      -   102   85s
+H 1066   620                      84.0000000   50.00000  40.5%   102   87s
+H 1068   591                      78.0000000   50.00000  35.9%   102   88s
+  1072   598   50.00000   23   60   78.00000   50.00000  35.9%   121   90s
+  1080   604   50.00000   24   54   78.00000   50.00000  35.9%   120   97s
+  1135   686   56.00000   34   34   78.00000   50.00000  35.9%   118  100s
+H 1322   640                      74.0000000   50.00000  32.4%   107  101s
+H 1562   633                      70.0000000   50.00000  28.6%  99.2  105s
+H 1706   570                      66.0000000   50.00000  24.2%  95.2  107s
+  1778   595   50.00000   27  198   66.00000   50.00000  24.2%  95.4  110s
+H 2235   555                      64.0000000   50.00000  21.9%  89.4  113s
+  2320   721   50.00000   40   42   64.00000   50.00000  21.9%  88.9  116s
+H 2729   476                      54.0000000   50.00000  7.41%  81.1  116s
+H 2739   412                      50.0000000   50.00000  0.00%  80.8  116s
+
+Cutting planes:
+  Cover: 15
+  Clique: 4
+  MIR: 14
+  StrongCG: 2
+  Flow cover: 60
+  GUB cover: 2
+  Zero half: 10
+  RLT: 5
+
+Explored 3100 nodes (259177 simplex iterations) in 116.13 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 8: 50 54 64 ... 84
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+01, best bound 5.000000000000e+01, gap 0.0000%
+<gurobi.Var p0_0_0 (value 1.0)>
+<gurobi.Var p0_0_1 (value 1.0)>
+<gurobi.Var p0_0_2 (value 1.0)>
+<gurobi.Var p0_0_3 (value 1.0)>
+<gurobi.Var p0_0_4 (value 1.0)>
+<gurobi.Var p0_0_5 (value 1.0)>
+<gurobi.Var p0_0_6 (value 1.0)>
+<gurobi.Var p0_0_7 (value 1.0)>
+<gurobi.Var p0_0_8 (value 1.0)>
+<gurobi.Var p0_0_9 (value 1.0)>
+<gurobi.Var p0_0_10 (value 1.0)>
+<gurobi.Var p0_0_11 (value 1.0)>
+<gurobi.Var p0_0_12 (value 1.0)>
+<gurobi.Var p0_0_13 (value 1.0)>
+<gurobi.Var p0_0_14 (value 1.0)>
+<gurobi.Var p0_0_15 (value 1.0)>
+<gurobi.Var p0_1_8 (value 1.0)>
+<gurobi.Var p0_1_9 (value 1.0)>
+<gurobi.Var p0_1_10 (value 1.0)>
+<gurobi.Var p0_1_11 (value 1.0)>
+<gurobi.Var p0_2_13 (value 1.0)>
+<gurobi.Var p0_3_1 (value 1.0)>
+<gurobi.Var p0_3_6 (value 1.0)>
+<gurobi.Var p0_3_11 (value 1.0)>
+<gurobi.Var p0_3_12 (value 1.0)>
+<gurobi.Var x0_1 (value 1.0)>
+<gurobi.Var x0_2 (value 1.0)>
+<gurobi.Var x0_3 (value 1.0)>
+<gurobi.Var x0_7 (value 1.0)>
+<gurobi.Var x0_8 (value 1.0)>
+<gurobi.Var x0_9 (value 1.0)>
+<gurobi.Var x0_12 (value 1.0)>
+<gurobi.Var x0_18 (value 1.0)>
+<gurobi.Var x0_21 (value 1.0)>
+<gurobi.Var x0_22 (value 1.0)>
+<gurobi.Var x0_25 (value 1.0)>
+<gurobi.Var x0_29 (value 1.0)>
+<gurobi.Var x0_33 (value 1.0)>
+<gurobi.Var x0_37 (value 1.0)>
+<gurobi.Var x0_41 (value 1.0)>
+<gurobi.Var x0_42 (value 1.0)>
+<gurobi.Var x0_43 (value 1.0)>
+<gurobi.Var x0_45 (value 1.0)>
+<gurobi.Var x0_46 (value 1.0)>
+<gurobi.Var x0_47 (value 1.0)>
+<gurobi.Var x0_48 (value 1.0)>
+<gurobi.Var x0_50 (value 1.0)>
+<gurobi.Var x0_53 (value 1.0)>
+<gurobi.Var x0_57 (value 1.0)>
+<gurobi.Var x0_58 (value 1.0)>
+<gurobi.Var x0_60 (value 1.0)>
+<gurobi.Var x0_62 (value 1.0)>
+<gurobi.Var A0_0 (value 1.0)>
+<gurobi.Var A0_1 (value 1.0)>
+<gurobi.Var A0_2 (value 1.0)>
+<gurobi.Var A0_3 (value 1.0)>
+<gurobi.Var A0_4 (value 1.0)>
+<gurobi.Var A0_5 (value 1.0)>
+<gurobi.Var A0_6 (value 1.0)>
+<gurobi.Var A0_7 (value 1.0)>
+<gurobi.Var A0_8 (value 1.0)>
+<gurobi.Var A0_9 (value 1.0)>
+<gurobi.Var A0_10 (value 1.0)>
+<gurobi.Var A0_11 (value 1.0)>
+<gurobi.Var A0_12 (value 1.0)>
+<gurobi.Var A0_13 (value 1.0)>
+<gurobi.Var A0_14 (value 1.0)>
+<gurobi.Var A0_15 (value 1.0)>
+<gurobi.Var y0_2 (value 1.0)>
+<gurobi.Var y0_6 (value 1.0)>
+<gurobi.Var y0_8 (value 1.0)>
+<gurobi.Var y0_12 (value 1.0)>
+<gurobi.Var y0_13 (value 1.0)>
+<gurobi.Var y0_19 (value 1.0)>
+<gurobi.Var y0_22 (value 1.0)>
+<gurobi.Var y0_23 (value 1.0)>
+<gurobi.Var y0_25 (value 1.0)>
+<gurobi.Var y0_26 (value 1.0)>
+<gurobi.Var y0_29 (value 1.0)>
+<gurobi.Var y0_33 (value 1.0)>
+<gurobi.Var y0_37 (value 1.0)>
+<gurobi.Var y0_38 (value 1.0)>
+<gurobi.Var y0_42 (value 1.0)>
+<gurobi.Var y0_46 (value 1.0)>
+<gurobi.Var y0_49 (value 1.0)>
+<gurobi.Var y0_51 (value 1.0)>
+<gurobi.Var y0_53 (value 1.0)>
+<gurobi.Var y0_54 (value 1.0)>
+<gurobi.Var y0_58 (value 1.0)>
+<gurobi.Var y0_59 (value 1.0)>
+<gurobi.Var y0_61 (value 1.0)>
+<gurobi.Var y0_63 (value 1.0)>
+<gurobi.Var t0_8 (value 1.0)>
+<gurobi.Var t0_21 (value 1.0)>
+<gurobi.Var t0_33 (value 1.0)>
+<gurobi.Var t0_61 (value 1.0)>
+<gurobi.Var t0_62 (value 1.0)>
+<gurobi.Var x1_33 (value 1.0)>
+<gurobi.Var x1_37 (value 1.0)>
+<gurobi.Var x1_40 (value 1.0)>
+<gurobi.Var x1_45 (value 1.0)>
+<gurobi.Var x1_46 (value 1.0)>
+<gurobi.Var A1_8 (value 1.0)>
+<gurobi.Var A1_9 (value 1.0)>
+<gurobi.Var A1_10 (value 1.0)>
+<gurobi.Var A1_11 (value 1.0)>
+<gurobi.Var y1_32 (value 1.0)>
+<gurobi.Var y1_33 (value 1.0)>
+<gurobi.Var y1_35 (value 1.0)>
+<gurobi.Var y1_37 (value 1.0)>
+<gurobi.Var y1_40 (value 1.0)>
+<gurobi.Var y1_47 (value 1.0)>
+<gurobi.Var t1_39 (value 1.0)>
+<gurobi.Var x2_55 (value 1.0)>
+<gurobi.Var A2_13 (value 1.0)>
+<gurobi.Var y2_54 (value 1.0)>
+<gurobi.Var t2_51 (value 1.0)>
+<gurobi.Var t2_53 (value 1.0)>
+<gurobi.Var t2_57 (value 1.0)>
+<gurobi.Var t2_58 (value 1.0)>
+<gurobi.Var t2_63 (value 1.0)>
+<gurobi.Var x3_5 (value 1.0)>
+<gurobi.Var x3_25 (value 1.0)>
+<gurobi.Var x3_26 (value 1.0)>
+<gurobi.Var x3_47 (value 1.0)>
+<gurobi.Var x3_51 (value 1.0)>
+<gurobi.Var A3_1 (value 1.0)>
+<gurobi.Var A3_6 (value 1.0)>
+<gurobi.Var A3_11 (value 1.0)>
+<gurobi.Var A3_12 (value 1.0)>
+<gurobi.Var y3_5 (value 1.0)>
+<gurobi.Var y3_6 (value 1.0)>
+<gurobi.Var y3_26 (value 1.0)>
+<gurobi.Var y3_27 (value 1.0)>
+<gurobi.Var y3_46 (value 1.0)>
+<gurobi.Var y3_48 (value 1.0)>
+<gurobi.Var y3_50 (value 1.0)>
+python3 new4.py  445.26s user 12.38s system 393% cpu 1:56.37 total

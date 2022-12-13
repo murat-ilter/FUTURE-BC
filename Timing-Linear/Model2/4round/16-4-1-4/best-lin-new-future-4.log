@@ -1,0 +1,52 @@
+
+Gurobi 9.0.2 (mac64, Python) logging started Sun Dec 11 19:37:15 2022
+
+Using license file /Users/muratilter/gurobi.lic
+Set parameter LogFile to value best-lin-new-future-4.log
+Academic license - for non-commercial use only
+Read LP format model from file new_best_lin_future_4.lp
+Reading time = 0.01 seconds
+: 1989 rows, 1496 columns, 12980 nonzeros
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 1989 rows, 1496 columns and 12980 nonzeros
+Model fingerprint: 0x2f26843c
+Variable types: 0 continuous, 1496 integer (1496 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 290 rows and 644 columns
+Presolve time: 0.13s
+Presolved: 1699 rows, 852 columns, 11552 nonzeros
+Variable types: 0 continuous, 852 integer (660 binary)
+
+Root relaxation: objective 3.555674e+01, 1011 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   35.55674    0  206          -   35.55674      -     -    0s
+     0     0   35.55674    0  227          -   35.55674      -     -    0s
+     0     0   35.55674    0  191          -   35.55674      -     -    0s
+     0     2   35.55674    0  189          -   35.55674      -     -    0s
+* 1863   900              74      56.0000000   48.44532  13.5%   9.1    2s
+* 1887   855              76      54.0000000   48.44532  10.3%   9.1    2s
+H 1960   785                      52.0000000   48.44532  6.84%   9.2    2s
+H 2478   615                      50.0000000   50.00000  0.00%  10.1    2s
+
+Cutting planes:
+  Gomory: 13
+  Cover: 11
+  Implied bound: 14
+  MIR: 17
+  Zero half: 4
+  RLT: 3
+
+Explored 2823 nodes (41676 simplex iterations) in 2.66 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 50 52 54 56 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+01, best bound 5.000000000000e+01, gap 0.0000%

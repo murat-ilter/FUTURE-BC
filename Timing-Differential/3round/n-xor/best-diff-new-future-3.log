@@ -1,0 +1,73 @@
+
+Gurobi 9.0.2 (mac64, Python) logging started Sun Dec 11 19:05:54 2022
+
+Using license file /Users/muratilter/gurobi.lic
+Set parameter LogFile to value best-diff-new-future-3.log
+Academic license - for non-commercial use only
+Read LP format model from file new_best_diff_future_3.lp
+Reading time = 0.01 seconds
+: 1460 rows, 1064 columns, 10152 nonzeros
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 1460 rows, 1064 columns and 10152 nonzeros
+Model fingerprint: 0x056073a1
+Variable types: 0 continuous, 1064 integer (1064 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 128 rows and 420 columns
+Presolve time: 0.09s
+Presolved: 1332 rows, 644 columns, 9604 nonzeros
+Variable types: 0 continuous, 644 integer (516 binary)
+
+Root relaxation: objective 3.797011e+00, 943 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    3.79701    0  133          -    3.79701      -     -    0s
+     0     0    3.97091    0  229          -    3.97091      -     -    0s
+     0     0    5.04055    0  154          -    5.04055      -     -    0s
+     0     0   10.26365    0  172          -   10.26365      -     -    0s
+     0     0   10.33545    0  153          -   10.33545      -     -    0s
+     0     0   10.33994    0  156          -   10.33994      -     -    0s
+     0     0   10.34351    0  152          -   10.34351      -     -    0s
+     0     0   10.34365    0  154          -   10.34365      -     -    0s
+     0     0   10.65339    0  158          -   10.65339      -     -    0s
+     0     0   11.52448    0  190          -   11.52448      -     -    0s
+     0     0   11.56821    0  191          -   11.56821      -     -    0s
+     0     0   11.56843    0  192          -   11.56843      -     -    0s
+     0     0   14.48426    0  132          -   14.48426      -     -    0s
+H    0     0                      28.0000000   14.48426  48.3%     -    0s
+     0     0   14.48426    0  133   28.00000   14.48426  48.3%     -    0s
+H    0     0                      22.0000000   14.48426  34.2%     -    0s
+     0     0   14.48426    0  145   22.00000   14.48426  34.2%     -    0s
+     0     0   14.48426    0  150   22.00000   14.48426  34.2%     -    0s
+H    0     0                      20.0000000   14.48426  27.6%     -    0s
+     0     0   15.84566    0   92   20.00000   15.84566  20.8%     -    0s
+H    0     0                      18.0000000   15.84566  12.0%     -    0s
+     0     0   15.88588    0   90   18.00000   15.88588  11.7%     -    0s
+     0     0   15.88588    0  104   18.00000   15.88588  11.7%     -    0s
+     0     0   16.00000    0   92   18.00000   16.00000  11.1%     -    0s
+     0     0   16.00000    0   64   18.00000   16.00000  11.1%     -    0s
+     0     0     cutoff    0        18.00000   18.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 44
+  Implied bound: 38
+  Clique: 9
+  MIR: 94
+  StrongCG: 3
+  Zero half: 15
+  RLT: 3
+  Relax-and-lift: 1
+
+Explored 1 nodes (3717 simplex iterations) in 0.73 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 18 20 22 28 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0000%

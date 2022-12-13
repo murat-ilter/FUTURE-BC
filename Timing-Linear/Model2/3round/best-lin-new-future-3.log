@@ -1,0 +1,63 @@
+
+Gurobi 9.0.2 (mac64, Python) logging started Sun Dec 11 16:31:01 2022
+
+Using license file /Users/muratilter/gurobi.lic
+Set parameter LogFile to value best-lin-new-future-3.log
+Academic license - for non-commercial use only
+Read LP format model from file new_best_lin_future_3.lp
+Reading time = 0.01 seconds
+: 1460 rows, 1056 columns, 9560 nonzeros
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
+Optimize a model with 1460 rows, 1056 columns and 9560 nonzeros
+Model fingerprint: 0xc3f6e8e3
+Variable types: 0 continuous, 1056 integer (1056 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 128 rows and 412 columns
+Presolve time: 0.11s
+Presolved: 1332 rows, 644 columns, 9020 nonzeros
+Variable types: 0 continuous, 644 integer (516 binary)
+
+Root relaxation: objective 3.556736e+00, 927 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    3.55674    0  149          -    3.55674      -     -    0s
+     0     0    3.80249    0  146          -    3.80249      -     -    0s
+     0     0   10.32803    0  116          -   10.32803      -     -    0s
+     0     0   10.32803    0  121          -   10.32803      -     -    0s
+H    0     0                      18.0000000   10.32803  42.6%     -    0s
+     0     0   10.41758    0  123   18.00000   10.41758  42.1%     -    0s
+     0     0   10.41758    0  118   18.00000   10.41758  42.1%     -    0s
+     0     0   10.42273    0  118   18.00000   10.42273  42.1%     -    0s
+     0     0   10.47023    0  120   18.00000   10.47023  41.8%     -    0s
+     0     0   11.58077    0  141   18.00000   11.58077  35.7%     -    0s
+     0     0   11.58541    0  127   18.00000   11.58541  35.6%     -    0s
+     0     0   13.99699    0  106   18.00000   13.99699  22.2%     -    0s
+     0     0   14.01776    0  136   18.00000   14.01776  22.1%     -    0s
+     0     0   14.02019    0  155   18.00000   14.02019  22.1%     -    0s
+     0     0   14.02035    0  156   18.00000   14.02035  22.1%     -    0s
+     0     0     cutoff    0        18.00000   18.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 31
+  Implied bound: 50
+  Clique: 2
+  MIR: 64
+  StrongCG: 3
+  Zero half: 19
+  RLT: 10
+  Relax-and-lift: 1
+
+Explored 1 nodes (2414 simplex iterations) in 0.57 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0000%
